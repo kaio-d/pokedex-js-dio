@@ -1,0 +1,46 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8fc;
+}
+
+body.darkTheme{
+  background-color: rgb(58, 55, 55);
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 25px;
+}
+
+header #changeTheme{
+  background: none;
+  border: none;
+}
+
+header .imgButton{
+  width: 30px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
